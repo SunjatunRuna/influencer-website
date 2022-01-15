@@ -1,0 +1,58 @@
+/*-------------------------------
+    Media Query
+    -------------------------------------------*/
+    /*  mobile devices */
+    @media only screen and (max-width: 688px) {
+        header{
+            width: 100%;
+        }
+        .logo-part{
+            width: 100%;
+        }
+        .menu{
+            display: none;
+        }
+        .middle-header{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .container{
+            width: 80%;
+        }
+        .side-bar{
+            width: 80%;
+        }
+        .circle{
+            height: 214px;
+            width: 240px;
+        }
+        .header-end{
+            display: none;
+        }
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        
+    }
+    /*tablet devices*/
+    @media only screen and (min-width: 688px) and (max-width: 980px) {
+        .container{
+            width: 50%;
+        }
+        .side-bar{
+            width: 50%;
+        }
+        .circle{
+            height: 314px;
+            width: 340px;
+        }
+        .header-end{
+            display: none;
+        }
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
